@@ -15,4 +15,9 @@ class PostImagesControllerTest < ActionDispatch::IntegrationTest
     get post_images_show_url
     assert_response :success
   end
+
+  test "should get destroy" do
+    get post_images_destroy_url
+    assert_response :success
+  end
 end

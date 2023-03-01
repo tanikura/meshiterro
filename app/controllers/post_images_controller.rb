@@ -18,6 +18,8 @@ class PostImagesController < ApplicationController
   def show
   end
 
+  def destroy
+  end
 
   private
 
